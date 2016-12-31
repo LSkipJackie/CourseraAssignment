@@ -1,0 +1,66 @@
+.header {
+    text-align: center;
+}
+
+.row > section {
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    float:left;
+}
+
+.row > section > div {
+    border: 1px black solid;
+    background-color: #828282;
+    position: relative;
+}
+
+.row > section > div > h1 {
+    text-align: center;
+    width: 100px;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.row > section > div > p {
+    padding: 40px 10px 10px 10px;
+    margin: 10px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+.color1 {
+    background-color: aquamarine;
+}
+
+.color2 {
+    background-color: coral;
+}
+
+.color3 {
+    background-color: firebrick;
+}
