@@ -1,0 +1,35 @@
+body {
+    font-size: 62.5%;
+}
+
+#header {
+    padding: 0;
+}
+
+#header > div:nth-child(1) {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding: 0;
+}
+
+.food {
+    margin: 0;
+}
+
+.food li a {
+    font-size: 2rem;
+    background-color: #C2C2C2;
+}
+
+#text {
+    font-size: 1.5rem;
+    background-color: #828282;
+    height: 1000px;
+}
