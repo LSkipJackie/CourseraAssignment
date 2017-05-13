@@ -6,7 +6,8 @@
     var app = angular.module("ShoppingListCheckOff", []);
 
     var ShoppingListCheckOffService = function () {
-        this.toBuy = [{ name: "cookies", quantity: 2 }, { name: "cookies", quantity: 3 }, { name: "cookies", quantity: 4 }];
+        this.toBuy = [{ name: "cookies", quantity: 2 }, { name: "cookies", quantity: 3 }, { name: "cookies", quantity: 4 },
+            { name: "cookies", quantity: 5 }, { name: "cookies", quantity: 6 }];
         this.bought = [];
 
         this.getToBuy = function () {
